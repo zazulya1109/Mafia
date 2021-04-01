@@ -1,0 +1,5 @@
+﻿0 Game started
+1 Day time
+2 Day voting
+3 Night time
+4 Night voting time

@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>629d9605-0ab4-4d58-add7-5deb2c685b5c</UserSecretsId>
+    <AspNetCoreModuleName>AspNetCoreModule</AspNetCoreModuleName>
+    <AspNetCoreHostingModel>OutOfProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\css\style_page.css" />
+    <Content Remove="wwwroot\css\style_page2.css" />
+    <Content Remove="wwwroot\css\style_page3.css" />
+    <Content Remove="wwwroot\css\style_page4.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\style_page4.css" />
+    <None Include="wwwroot\css\style_page3.css" />
+    <None Include="wwwroot\css\style_page2.css" />
+    <None Include="wwwroot\css\style_page.css" />
+    <None Include="wwwroot\css\Game_style.css" />
+    <None Include="wwwroot\images\1.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.SignalR" Version="2.4.1" />
+    <PackageReference Include="Microsoft.AspNet.SignalR.JS" Version="2.4.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Common" Version="5.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Core" Version="1.1.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+    <PackageReference Include="MySql.Data" Version="8.0.22" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+    <PackageReference Include="System.Runtime" Version="4.3.1" />
+  </ItemGroup>
+
+</Project>
